@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(211, 235, 251);
+}
+
+#container {
+  transform: translate(350px, 100px);
+
+  width: 50%;
+  height: 60%;
+}
+
+input {
+  font-size: 25px;
+  color: rgb(40, 40, 100);
+  text-shadow: 4px 4px 6px gray;
+  box-shadow: 2px 2px 2px gray;
+  background-color: rgb(208, 206, 231);
+}
+button {
+  background-color: rgb(49, 49, 107);
+  padding: auto;
+  font-size: 30px;
+  border-radius: 10px;
+  color: white;
+  margin-left: 250px;
+}
+label {
+  font-size: 25px;
+  color: rgb(40, 40, 100);
+  text-shadow: 4px 4px 6px gray;
+}
+h1 {
+  color: rgb(40, 40, 100);
+  text-shadow: 4px 4px 6px gray;
+}

@@ -1,0 +1,17 @@
+table,th,td{
+    border: 4px groove gray;
+    font-size:30px;
+    text-align:center;
+    border-collapse: collapse;
+    
+}
+tr:nth-child(even){
+    background-color:#dddddd;
+}
+table{
+          transform:translate(500px,10px);
+}
+h1{
+    color:gray;
+    text-align: center;
+}

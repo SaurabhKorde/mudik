@@ -1,0 +1,42 @@
+#container {
+  width: 500px;
+  margin: 0 auto;
+}
+form {
+  background-color: #eee;
+  padding: 20px;
+  color: white;
+}
+fieldset {
+  background-color: gray;
+  padding: 40px;
+  border: 2px solid black;
+  box-shadow: 8px 8px 10px gray;
+}
+legend {
+  background-color: gray;
+  padding: 5px;
+  font-size: 30px;
+  font-family: bold;
+}
+button {
+  background-color: #eee;
+  border: 2px solid white;
+  padding: 4px;
+  border-radius: 6px;
+  font-size: 20px;
+}
+
+form input,
+form textarea {
+  display: block;
+  margin-bottom: 0px;
+  background-color: #eee;
+  height: 25px;
+  text-transform: capitalize;
+}
+h1 {
+  color: gray;
+  text-shadow: 5px 4px 8px purple;
+  text-align: center;
+}

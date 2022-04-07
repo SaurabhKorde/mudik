@@ -1,0 +1,2 @@
+{"_id":{"$oid":"620f5d62ad1f7434e1e00240"},"name":"Joe","scores":[{"$numberDouble":"92.0"},[{"$numberDouble":"98.0"},{"$numberDouble":"97.0"},{"$numberDouble":"99.0"}],{"$numberDouble":"90.0"},{"$numberDouble":"91.0"},{"$numberDouble":"92.0"},{"$numberDouble":"93.0"},{"$numberDouble":"94.0"},{"$numberDouble":"95.0"}]}
+{"_id":{"$oid":"620f5d7dad1f7434e1e00241"},"name":"Micky","scores":[{"$numberDouble":"94.0"},{"$numberDouble":"93.0"},{"$numberDouble":"92.0"}]}

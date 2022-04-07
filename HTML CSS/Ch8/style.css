@@ -1,0 +1,16 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: #eee;
+  border: 2px solid black;
+}
+#relativebox {
+  position: relative;
+  top: 10px;
+  left: 50px;
+}
+#absolutebox {
+  position: absolute;
+  top: 0;
+  right: 100px;
+}

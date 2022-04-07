@@ -1,0 +1,27 @@
+body {
+  background-color: #eee;
+}
+h1 {
+  color: gray;
+}
+div {
+  background-color: gray;
+  width: 20%;
+  box-shadow: 5px 5px 9px black;
+}
+li,
+a {
+  color: #eee;
+  font-size: 20px;
+}
+h2 {
+  color: darkmagenta;
+  text-shadow: 6px 6px 4px gray;
+}
+p {
+  color: darkslategray;
+}
+strong {
+  color: purple;
+  text-shadow: 6px 6px 4px gray;
+}

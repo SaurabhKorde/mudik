@@ -1,0 +1,29 @@
+.cl1 {
+  color: white;
+  text-shadow: 5px 5px 6px black;
+  background-color: gray;
+}
+body {
+  background-color: #eee;
+}
+#id1 {
+  color: purple;
+  text-align: center;
+  text-shadow: 6px 6px 6px gray;
+}
+
+.cl2 em {
+  color: hotpink;
+  font-size: 20px;
+}
+.cl3 {
+  background-color: purple;
+  color: seashell;
+  box-shadow: 6px 6px 8px gray;
+  width: 40%;
+}
+h2,
+p {
+  color: darkblue;
+  text-shadow: 2px 2px 3px gray;
+}

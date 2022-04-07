@@ -1,0 +1,43 @@
+@bgcolor: pink;
+@primarycolor: yellow;
+@secondarycolor: green;
+body {
+  background-color: @bgcolor;
+}
+#link-text {
+  color: @primarycolor;
+}
+.primary-btn :extend(.btn) {
+  background-color: @primarycolor;
+  .border-radius(15px);
+}
+.btn {
+  padding: 10px;
+  color: blue;
+}
+.border-radius(@radius) {
+  border-radius: @radius;
+}
+.bordered {
+  border-bottom: 2px dashed black;
+  border-top: 2px dashed black;
+}
+h1,
+h2 {
+  .bordered;
+}
+ul#list {
+  list-style: none;
+  background-color: lighten(@secondarycolor, 50%);
+  li {
+    padding: 10px;
+
+    a {
+      text-decoration: none;
+      font-size: 24px;
+      &:hover {
+        color: black;
+      }
+    }
+  }
+}

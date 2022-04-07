@@ -1,0 +1,38 @@
+body {
+  background-color: pink;
+}
+#link-text {
+  color: yellow;
+}
+.primary-btn {
+  background-color: yellow;
+  border-radius: 15px;
+}
+.btn,
+.primary-btn {
+  padding: 10px;
+  color: blue;
+}
+.bordered {
+  border-bottom: 2px dashed black;
+  border-top: 2px dashed black;
+}
+h1,
+h2 {
+  border-bottom: 2px dashed black;
+  border-top: 2px dashed black;
+}
+ul#list {
+  list-style: none;
+  background-color: #80ff80;
+}
+ul#list li {
+  padding: 10px;
+}
+ul#list li a {
+  text-decoration: none;
+  font-size: 24px;
+}
+ul#list li a:hover {
+  color: black;
+}

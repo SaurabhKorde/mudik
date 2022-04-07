@@ -1,0 +1,16 @@
+.cat {
+  background-color: gray;
+  color: #eee;
+  margin: 4px;
+  padding: auto;
+}
+body {
+  background-color: #eee;
+  text-align: center;
+}
+.dog {
+  background-color: yellow;
+  color: purple;
+  margin: auto;
+  padding: auto;
+}

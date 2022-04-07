@@ -1,0 +1,35 @@
+li,
+a {
+  display: inline;
+  text-decoration: none;
+  font-size: 40px;
+  color: palevioletred;
+  margin: 15px;
+}
+a:hover {
+  background-color: palevioletred;
+  color: white;
+}
+.cl1 {
+  background-color: #eee;
+}
+.cl3 li {
+  color: black;
+  margin-left: 120px;
+  font-size: 30px;
+}
+img:hover {
+  box-shadow: 6px 6px 15px gray;
+}
+.marq {
+  font-size: 35px;
+  color: palevioletred;
+}
+button {
+  background-color: palevioletred;
+  font-size: 40px;
+  color: white;
+  margin-left: 500px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 6px gray;
+}

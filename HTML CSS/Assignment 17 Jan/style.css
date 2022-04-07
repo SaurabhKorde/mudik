@@ -1,0 +1,84 @@
+.head img {
+  width: 200px;
+}
+.head {
+  background-color: #eee;
+}
+#nav li {
+  text-decoration: none;
+  list-style-type: none;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 35px;
+
+  display: inline;
+  float: right;
+  color: brown;
+  background-color: rgb(197, 192, 184);
+  border-radius: 20px;
+}
+#nav li:hover {
+  background-color: brown;
+  color: white;
+}
+
+#container {
+  background-image: url("src/fruit2.jpg");
+}
+#main-content {
+  width: 50%;
+  margin: auto;
+  opacity: 0.8;
+}
+h1 {
+  color: white;
+  font-size: 60px;
+  text-shadow: 4px 4px 6px purple;
+}
+h2 {
+  color: white;
+  font-size: 50px;
+  text-shadow: 3px 3px 6px purple;
+}
+.lead {
+  color: #eee;
+  font-size: 20px;
+}
+#special-offer img {
+  width: 200px;
+  border-radius: 4px;
+  background-color: black;
+  margin-left: 200px;
+  box-shadow: 3px 3px 3px 5px white;
+}
+
+#special-offer p {
+  color: white;
+  background-color: black;
+  font-size: 25px;
+}
+#sidebar {
+  background-color: rgb(32, 28, 28);
+  opacity: 0.9;
+}
+.widget {
+  margin-left: 100px;
+}
+h3 {
+  color: yellow;
+  font-size: 30px;
+}
+p {
+  color: white;
+  font-size: 25px;
+}
+li {
+  color: pink;
+  font-size: 25px;
+}
+a {
+  color: pink;
+  font-size: 30px;
+}

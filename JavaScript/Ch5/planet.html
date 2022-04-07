@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .para3 {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <p1 id="greenplanet">All is Well.</p1><br />
+    <p1 id="redplanet">Nothing to report.</p1><br />
+    <p1 id="blueplanet">All System ok.</p1><br /><br /><br />
+
+    <p id="para1"></p>
+    <br /><br />
+    <h1 id="para2">old data</h1>
+    <button onclick="document.getElementById('para2').innerHTML ='new data'">
+      Change
+    </button>
+
+    <h2 class="para3">hellooo</h2>
+    <button
+      onclick="document.getElementsByTagName('h2')[0].removeAttribute('class')"
+    >
+      remove
+    </button>
+    <script src="planet.js"></script>
+  </body>
+</html>

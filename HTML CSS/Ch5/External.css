@@ -1,0 +1,17 @@
+body {
+  background-color: #eee;
+}
+h1 {
+  color: gray;
+}
+button {
+  background-color: palevioletred;
+  font-size: 20px;
+  color: gray;
+}
+p {
+  color: blue;
+}
+li {
+  color: purple;
+}

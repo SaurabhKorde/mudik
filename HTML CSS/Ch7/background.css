@@ -1,0 +1,23 @@
+#background1 {
+  background-image: url(src/background2.jpeg);
+}
+
+#background2 {
+  background-color: purple;
+}
+#background3 {
+  background-image: url(src/background3.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#background4 {
+  background-image: url(src/background2.jpeg);
+  background-repeat: repeat-x;
+}
+
+.backgroundExample {
+  margin: 40px;
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+}

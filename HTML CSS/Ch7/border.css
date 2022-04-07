@@ -1,0 +1,38 @@
+.border_box {
+  width: 300px;
+  margin: 8px;
+  background-color: #eee;
+  font-size: 25px;
+  padding: 4px;
+}
+#box1 {
+  border: 2px solid black;
+}
+
+#box2 {
+  border: 2px dashed black;
+}
+
+#box3 {
+  border: 2px dotted black;
+}
+
+#box4 {
+  border: 3px double black;
+}
+
+#box5 {
+  border: 4px solid black;
+}
+
+#box6 {
+  border: 4px dashed black;
+}
+
+#box7 {
+  border: 4px dotted black;
+}
+
+#box8 {
+  border: 4px double black;
+}

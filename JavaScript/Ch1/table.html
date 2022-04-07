@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="content"></div>
+
+    <div class="cl1">
+      <h1>Enter Any Number for the Table</h1>
+      <label for="num">Enter Any Number</label
+      ><input type="text" name="num" id="num" placeholder="" /><br /><br />
+      <button onclick="createTable()">Click Here</button>
+    </div>
+    <script>
+      function createTable() {
+        let inputValue = document.getElementById("num").value;
+        document.writeln("<h1>This is table of " + inputValue + "<h1>");
+        for (i = 1; i <= 10; i++) {
+          document.writeln(inputValue * i + "<br/>");
+        }
+      }
+    </script>
+  </body>
+</html>

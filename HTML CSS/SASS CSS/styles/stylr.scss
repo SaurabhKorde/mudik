@@ -1,0 +1,40 @@
+$textcolor: rgb(69, 79, 214);
+$bgcolor: rgb(79, 28, 95);
+$btncolor: pink;
+body {
+  background-color: rgb(65, 65, 61);
+}
+header {
+  background-color: #eee;
+  font-size: 40px;
+  text-align: center;
+  color: $textcolor;
+}
+.btn1 {
+  background-color: $bgcolor;
+  font-size: 30px;
+  padding: 10px;
+  color: white;
+  &:hover {
+    background-color: yellow;
+    color: black;
+  }
+}
+.btn2 {
+  background-color: $btncolor;
+  font-size: 30px;
+  padding: 10px;
+  &:hover {
+    background-color: yellow;
+  }
+}
+
+h1 {
+  color: white;
+  &::after {
+    content: ".This is CSS Extension.";
+  }
+}
+h2 {
+  background-color: #ecdede;
+}

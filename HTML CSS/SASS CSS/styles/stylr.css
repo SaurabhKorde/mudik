@@ -1,0 +1,45 @@
+body {
+  background-color: #41413d;
+}
+
+header {
+  background-color: #eee;
+  font-size: 40px;
+  text-align: center;
+  color: #454fd6;
+}
+
+.btn1 {
+  background-color: #4f1c5f;
+  font-size: 30px;
+  padding: 10px;
+  color: white;
+}
+
+.btn1:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.btn2 {
+  background-color: pink;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.btn2:hover {
+  background-color: yellow;
+}
+
+h1 {
+  color: white;
+}
+
+h1::after {
+  content: ".This is CSS Extension.";
+}
+
+h2 {
+  background-color: #ecdede;
+}
+/*# sourceMappingURL=stylr.css.map */

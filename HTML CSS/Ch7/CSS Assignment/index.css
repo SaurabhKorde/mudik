@@ -1,0 +1,24 @@
+#container {
+  background-color: #eee;
+  width: 40%;
+  margin-left: 30%;
+}
+#header {
+  background-color: gray;
+  margin: auto;
+  text-transform: capitalize;
+  text-shadow: 4px 4px 5px white;
+}
+.lead {
+  background-color: purple;
+  font-size: 30px;
+  color: white;
+  text-shadow: 6px 3px 4px gray;
+}
+.post {
+  color: purple;
+  text-shadow: 4px 4px 5px gray;
+}
+body {
+  background-image: url("img2.jpg");
+}
